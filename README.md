@@ -2,10 +2,10 @@
 
 eBASCS is a probabilistic algorithm designed to sift high-energy photon events from multiple astronomical
 point sources with overlapping Point Spread Functions (PSF).
+ 
+The `code` in this repositery implements the method described in [this paper](https://doi.org/10.1093/mnras/stab1456) [[1]](#1).
 
-The `code` in this repositery implements the method described in [[1]](#1) (https://doi.org/10.1093/mnras/stab1456).
-
-Refer to `main.R` script to fit one of four different disentangling algorithms (spatial, space-time, and eBASCS) on your data.
+Refer to `main.R` script to fit one of three different disentangling algorithms (spatial, space-time, and eBASCS) on your data.
 
 ## References
 <a id="1">[1]</a> 
